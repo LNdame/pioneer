@@ -74,6 +74,10 @@ body a:hover
     position: fixed;
 }
 
+.menu-wrapper img{
+    float: left;
+}
+
 #header-main-menu
 {    
     max-width: 1170px;
@@ -95,6 +99,7 @@ body a:hover
     transition: color .2s linear;
     text-transform: uppercase;
     letter-spacing: 0.03cm;
+   
 }
 
 .main-menu.sm-clean .sub-menu a 
@@ -266,7 +271,19 @@ body a:hover
     background-size: cover;
     z-index: 10;
 }
-s
+
+.intro-alt-page 
+{
+    padding-bottom: 170px;
+    /*min-height: calc(100vh - 170px); */
+    max-height: 200px;
+    background-color: #ffeb3b; 
+    background-image:url(mockup-images/servicebackground.jpg); 
+    background-repeat: repeat; 
+    background-position: center top; 
+    background-size: cover;
+    z-index: 10;
+}
 
 
 
@@ -290,6 +307,21 @@ h1.big-title
     margin-right: auto;
 }
 
+h1.big-title-alt
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 100%;
+    padding-top: 100px;
+    color: #fff;
+    letter-spacing: -1px;    
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .big-title span 
 {
     display: block;
@@ -305,7 +337,7 @@ h1.big-title
     color: #fff;
 }
 
-.page-template-page-home .intro-page   footer
+.page-template-page-home .intro-page  .intro-alt-page  footer
 {
     position: absolute;
     bottom: 0;

@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <link rel="shortcut icon" href="images/favicon.png" />
-        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css"  href='css/clear.css' />
         <link rel="stylesheet" type="text/css"  href='css/common.css' />
         <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
@@ -47,10 +47,52 @@
                 <h1 class="big-title">We Craft Awesome Web And <span>Graphic Design Solutions</span></h1>
                 <p class="title-desc">Support bright students today for a better tomorrow</p>
             </div>
+
+        <div class="block content-1170 center-relative center-text">
+                <img style="padding-top: 52px;" class="top-logo" src="mockup-images/logo.png" alt="Pioneer" />
+                <br>
+                <h1 class="big-title">Your link to the <span>Future</span></h1>
+                <p class="title-desc" style="font-family: 'Krub'; color: #ffeb3b;" >Wi-Fi - DATA - VoIP - CCTV</p>
+            </div>
+
+
         </div>
         -->
+        <div id="home" class="section intro-page">
+             <div class="full-width ">
+             
+                        <script>
+                            var aboutImage_speed = "500";
+                            var aboutImage_auto = "true";
+                            var aboutImage_hover = "true";
+                        </script>
+                        <div class="image-slider-wrapper relative img aboutImage">
+                            <a id="aboutImage_next" class="image_slider_next" href="#"></a>
+                            <div class="caroufredsel_wrapper">
+                                <ul id="aboutImage" class="image-slider slides">
+                                    <li>
+                                       <div class="carousel_item" > 
+                                            <div class="block content-1170 center-relative center-text" >
+                                        <!-- <img src="mockup-images/about_img_04.jpg" alt="">   -->
+                                                <img style="padding-top: 52px;" class="top-logo" src="mockup-images/logo.png" alt="Pioneer" />
+                                                <br>
+                                                <h1 class="big-title">Your link to the <span>Future</span></h1>
+                                                <p class="title-desc" style="font-family: 'Krub'; color: #ffeb3b;" >Wi-Fi - DATA - VoIP - CCTV</p>
+                                            </div>
+                                        </div>
 
+                                        
+                                    </li>
+                                    <li><img src="mockup-images/about_img_05.jpg" alt=""></li>
+                                    <li><img src="mockup-images/about_img_06.jpg" alt=""></li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+             
+             </div>
 
+         </div>
 
       
         <!-- About -->
@@ -86,7 +128,7 @@
                     <div class="full-width ">
                         <script>
                             var aboutImage_speed = "500";
-                            var aboutImage_auto = "false";
+                            var aboutImage_auto = "true";
                             var aboutImage_hover = "true";
                         </script>
                         <div class="image-slider-wrapper relative img aboutImage">

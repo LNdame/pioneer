@@ -266,7 +266,20 @@ body a:hover
     background-size: cover;
     z-index: 10;
 }
-s
+
+
+.intro-alt-page 
+{
+    padding-bottom: 170px;
+    min-height: calc(100vh - 170px);
+    background-color: #ffeb3b; 
+    background-image:url(mockup-images/servicebackground.jpg); 
+    background-repeat: repeat; 
+    background-position: center top; 
+    background-size: cover;
+    z-index: 10;
+}
+
 
 
 
@@ -1744,3 +1757,16 @@ footer
         top: -84px;
     }
 }
+
+.carousel_item
+{
+    padding-bottom: 170px;
+    min-height: calc(100vh - 170px);
+    width: 100%;
+    background-image:url(mockup-images/about_img_04.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center top;  
+    background-size: cover;
+    z-index: 10;
+}
+
