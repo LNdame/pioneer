@@ -9,7 +9,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <link rel="shortcut icon" href="images/favicon.png" />
-        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif|Nunito:300,400,400i,700,700i,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
         <link rel="stylesheet" type="text/css"  href='css/clear.css' />
         <link rel="stylesheet" type="text/css"  href='css/common.css' />
         <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
@@ -50,7 +52,22 @@
         </div>
         -->
 
-
+        <div id="home" class="section intro-alt-page" style="background-image:url(mockup-images/aboutbackground.jpg);">
+          
+          <div class="block content-1170 center-relative center-text ">
+          
+              <div class="content-wrapper">
+                  
+                     
+                          <h1 class="big-title-alt">About Us</h1>
+                          <p class="title-desc">Your link to the future</p>
+                          <div class="clear"></div>
+                      <br>
+                      <br>
+                  </div>
+  
+          </div>
+          </div>
 
       
         <!-- About -->
@@ -58,9 +75,10 @@
             <div class="block content-1170 center-relative">
                 <div class="section-title-holder left" style="background-color: #d50000;">
                     <div class="section-num">
-                        <span style="color: #ffeb3b;">01</span>
+                        <span style="color: #ffeb3b;">Pioneer Connect</span>
                     </div>
-                    <h2 class="entry-title">Connect</h2>
+                    <img src="mockup-images/logo_menu.pg" alt="">
+                    
                 </div>
                 <div class="section-content-holder right">
                     <div class="content-wrapper">
@@ -101,6 +119,140 @@
                             <div class="clear"></div>
                         </div>
 
+                       
+                    </div>   <!-- end full-width div -->
+
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+
+            <!-- VPN --> 
+        <div id="vpn" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder right" style="background-color: #fbc02d;">
+                    <div class="section-num">
+                        <span>
+                           Team
+                        </span>
+                    </div>
+                   <!--  <i class="fas fa-network-wired fa-9x"></i>
+                  
+                   <h2 class="entry-title">VPN</h2> -->
+                </div>
+                <div class="section-content-holder left">
+                    <div class="content-wrapper">
+                        <div class="content-title-holder">
+                            <p class="content-title">Management</p>
+                        </div>
+                        <p><strong> Management </strong> ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia 
+                        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+                         qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem
+                       
+                        <br>
+                       <div class="clear"></div>
+                        <br>
+                        
+                        
+                            <br>
+                    </div>
+                    
+                    <div class="full-width ">
+                        
+                    <script>
+                            var manteam1_speed = "500";
+                            var manteam1_auto = "false";
+                            var manteam1_hover = "true";
+                        </script>
+                        <div class="image-slider-wrapper relative team manteam1">
+                            <a id="manteam1_next" class="image_slider_next" href="#"></a>
+                            <div class="caroufredsel_wrapper">
+                                <ul id="manteam1" class="image-slider slides">
+                                    <li>
+                                        <div class="member-content-holder">
+                                            <h4 class="member-name">Lwando Mini</h4>
+                                            <p class="member-position">LEAD DESIGNER</p>
+                                            <div class="member-content">
+                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
+                                            </div>
+                                        </div>
+                                        <div class="member-image-holder">
+                                            <img src="demo-images/about_img_01.jpg" alt="">
+                                        </div>
+                                        <div class="clear"></div>
+                                    </li>
+
+                                    <li>
+                                        <div class="member-content-holder">
+                                            <h4 class="member-name">Victor Dondolo</h4>
+                                            <p class="member-position">SEO MASTER</p>
+                                            <div class="member-content">
+                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
+                                            </div>
+                                        </div>
+                                        <div class="member-image-holder">
+                                            <img src="demo-images/about_img_02.jpg" alt="">
+                                        </div>
+                                        <div class="clear"></div>
+                                    </li>
+
+                                    <li>
+                                        <div class="member-content-holder">
+                                            <h4 class="member-name">Tandiso  Nkonki</h4>
+                                            <p class="member-position">PSD GURU</p>
+                                            <div class="member-content">
+                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
+                                            </div>
+                                        </div>
+                                        <div class="member-image-holder">
+                                            <img src="demo-images/about_img_03.jpg" alt="">
+                                        </div>
+                                        <div class="clear"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+           
+        </div>
+        
+
+         <!-- Core team  -->
+         <div id="about" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder left" style="background-color: #d50000;">
+                    <div class="section-num">
+                        <span style="color: #ffeb3b;">Team</span>
+                    </div>
+                   
+                </div>
+                <div class="section-content-holder right">
+                    <div class="content-wrapper">
+                        <div class="content-title-holder">
+                            <p class="content-title">On The Ground</p>
+                        </div>
+                        <p><strong> On The Ground </strong> ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia 
+                        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+                         qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem
+                       
+                        <br>
+                       <div class="clear"></div>
+                        <br>
+                        <div class="clear"></div>
+                        <br>
+                        <br>
+                    </div>
+
+                    <div class="full-width ">
+                        
                         <script>
                             var team1_speed = "500";
                             var team1_auto = "false";
@@ -161,9 +313,6 @@
                 <div class="clear"></div>
             </div>
         </div>
-
-
-        
 
         <!-- Footer -->
 

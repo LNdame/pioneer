@@ -9,7 +9,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <link rel="shortcut icon" href="images/favicon.png" />
-        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif|Nunito:300,400,400i,700,700i,900' rel='stylesheet' type='text/css'>
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
         <link rel="stylesheet" type="text/css"  href='css/clear.css' />
         <link rel="stylesheet" type="text/css"  href='css/common.css' />
         <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
@@ -29,7 +31,7 @@
         <table class="doc-loader">
             <tr>
                 <td>
-                    <img src="images/ajax-document-loader.gif" alt="Loading..." />
+                    <img   src="images/ajax-document-loader.gif" alt="Loading..." />
                 </td>
             </tr>
         </table>
@@ -50,7 +52,24 @@
         </div>
         -->
 
-
+ <div id="home" class="section intro-alt-page" style="background-image:url(mockup-images/contactbackground.jpg);">
+          
+          <div class="block content-1170 center-relative center-text ">
+          
+              <div class="content-wrapper">
+                  
+                     
+                          <h1 class="big-title-alt">Contact Us</h1>
+                          <p class="title-desc">Your link to the future</p>
+                          <div class="clear"></div>
+                      <br>
+                      <br>
+                  </div>
+  
+          </div>
+          </div>
+  
+  
 
        
 
@@ -61,10 +80,11 @@
                 <div class="section-title-holder right">
                     <div class="section-num">
                         <span style="color: #ffeb3b;">
-                            01
+                            Info
                         </span>
                     </div>
-                    <h2 class="entry-title">INFO</h2>
+                    <i class="fas fa-info fa-9x"></i>
+                   
                 </div>
                 <div class="section-content-holder left">
                     <div class="content-wrapper">
@@ -155,10 +175,11 @@
                 <div class="section-title-holder left" style="background-color: #ffeb3b;">
                     <div class="section-num">
                         <span style="color: #961a0c;">
-                            02
+                            Contact
                         </span>
                     </div>
-                    <h2 class="entry-title">Contact</h2>
+                    <i class="far fa-envelope-open fa-9x"></i>
+                    
                 </div>
                 <div class="section-content-holder right">
                     <div class="content-wrapper">

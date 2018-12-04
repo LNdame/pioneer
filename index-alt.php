@@ -42,12 +42,49 @@
 
         <!-- Home -->
 
-        <div id="home" class="section intro-page">
-            <div class="block content-1170 center-relative center-text">
-                <img style="padding-top: 52px;" class="top-logo" src="mockup-images/logo.png" alt="Pioneer" />
-                <br>
-                <h1 class="big-title">Your link to the <span>Future</span></h1>
-                <p class="title-desc" style="font-family: 'Krub'; color: #ffeb3b;" >Wi-Fi - DATA - VoIP - CCTV</p>
+        <div id="home" class="section intro-page-caro">
+        <div class="full-width ">
+             
+             <script>
+                 var aboutImage_speed = "500";
+                 var aboutImage_auto = "true";
+                 var aboutImage_hover = "true";
+                 var aboutImage_transition = "true";
+             </script>
+             <div class="image-slider-wrapper relative img aboutImage">
+                 <a id="aboutImage_next" class="image_slider_next" href="#"></a>
+                 <div class="caroufredsel_wrapper">
+                     <ul id="aboutImage" class="image-slider slides">
+                         <li>
+                            <div class="carousel_item" > 
+                                 <div class="block content-1170 center-relative center-text" >
+                             <!-- <img src="mockup-images/about_img_04.jpg" alt="">   -->
+                                     <img style="padding-top: 52px; width: 783px; height:320px" class="top-logo" src="mockup-images/logo.png" alt="Pioneer" />
+                                     <br>
+                                     <h1 class="big-title">Your link to the Future</h1>
+                                     <p class="title-desc" style="font-family: 'Krub'; color: #ffeb3b;" >Wi-Fi - DATA - VoIP - CCTV</p>
+                                 </div>
+                             </div>
+
+                             
+                         </li>
+                         <li>
+                             
+                         
+                         
+                         <img src="mockup-images/about_img_05.jpg" alt="">
+                        </li>
+
+                         <li>
+                             
+                         <img src="mockup-images/about_img_06.jpg" alt="">
+                        
+                        </li>
+                     </ul>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+  
             </div>
         </div>
         
@@ -59,14 +96,14 @@
             <div class="block content-1170 center-relative">
                 <div class="section-title-holder right">
                     <div class="section-num">
-                        <span style="color: #ffeb3b;">01</span>
+                        <span style="color: #ffeb3b;">Connect</span>
                     </div>
-                    <h2 class="entry-title">WIRELESS</h2>
+                    <img src="mockup-images/logo_i.png" alt="">
                 </div>
                 <div class="section-content-holder left">
                     <div class="content-wrapper">
                         <div class="content-title-holder">
-                            <p class="content-title">WWW</p>
+                            <p class="content-title">Pioneer</p>
                         </div>
                         <p><strong> Pioneer Connect </strong> will provide High speed connectivity using the best equipment to ensure consistent and undisturbed coverage and speeds to our customers.<br>
                         However, the challenge in most cases is with upload and download speeds which limits the customer from working or communicating effectively. <br>
@@ -98,10 +135,10 @@
         <div id="services" class="section"  style="background-image:url(mockup-images/background_img_xx.jpg);  background-repeat: no-repeat; background-position: center top; background-size: cover; ">
             <div class="block content-1170 center-relative">
                 <div class="section-title-holder left" style="background-color: #ffeb3b;">
-                    <div class="section-num">
-                        <span style="color: #961a0c;">02</span>
+                <div class="section-num">
+                        <span style="color: #961a0c;">Services</span>
                     </div>
-                    <h2 class="entry-title">Services</h2>
+                    <i class="fas fa-globe-africa fa-9x"></i>
                 </div>
                 <div class="section-content-holder right" >
                     <div class="content-wrapper">

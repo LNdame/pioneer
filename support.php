@@ -9,7 +9,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <link rel="shortcut icon" href="images/favicon.png" />
-        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif|Nunito:300,400,400i,700,700i,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
         <link rel="stylesheet" type="text/css"  href='css/clear.css' />
         <link rel="stylesheet" type="text/css"  href='css/common.css' />
         <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
@@ -50,6 +52,25 @@
         </div>
         -->
 
+         <!-- Home -->
+
+        <div id="home" class="section intro-alt-page" style="background-image:url(mockup-images/supportbackground.jpg);">
+          
+        <div class="block content-1170 center-relative center-text ">
+        
+            <div class="content-wrapper">
+                
+                    
+                        <h1 class="big-title-alt">Support</span></h1>
+                        <p class="title-desc">Your link to the future</p>
+                        <div class="clear"></div>
+                    <br>
+                    <br>
+                </div>
+
+        </div>
+        </div>
+
 
 
        
@@ -61,10 +82,11 @@
                 <div class="section-title-holder right">
                     <div class="section-num">
                         <span style="color: #ffeb3b;">
-                            01
+                            FAQ
                         </span>
                     </div>
-                    <h2 class="entry-title">SUPPORT</h2>
+                    <i class="far fa-question-circle fa-9x"></i>
+                   
                 </div>
                 <div class="section-content-holder left">
                     <div class="content-wrapper">
@@ -108,6 +130,82 @@
                                 <div class="clear"></div>
                             </article>
 
+                            <article class="relative blog-item-holder center-relative">
+                                <div class="num">03</div>
+                                <div class="info">
+                                    <div class="author vcard ">How long will it take to get connected?</div>
+                                    <div class="cat-links">
+                                        <ul>
+                                            <li><a href="#">faq</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p >
+                                This will depend on the turnaround for your installation and activation.
+                                 Once the line has been installed in your premises it can take up to 5 days for 
+                                 the provider to activate your line. As soon as your connection is active, you can 
+                                 be connected to the internet with Pioneer Connect within 24 hours
+                                    Each provider has a different lead time for installation and activation. 
+                                    If your line is already activated, you'll be connected shortly after you sign up.
+
+
+                                </p>
+                                <div class="clear"></div>
+                            </article>
+
+
+                            <article class="relative blog-item-holder center-relative">
+                                <div class="num">04</div>
+                                <div class="info">
+                                    <div class="author vcard ">Is the price of the Fibre line included in the package price?</div>
+                                    <div class="cat-links">
+                                        <ul>
+                                            <li><a href="#">faq</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p>
+                                Yes – the price you see, is the price you pay! All Fibre Packages are bundled, 
+                                so the price is for both your Data and the Line rental, all‑inclusive.   </p>
+                                <div class="clear"></div>
+                            </article>
+
+
+                            <article class="relative blog-item-holder center-relative">
+                                <div class="num">05</div>
+                                <div class="info">
+                                    <div class="author vcard ">Can I use my current DSL router?</div>
+                                    <div class="cat-links">
+                                        <ul>
+                                            <li><a href="#">faq</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p>
+                                Probably not, as Fibre works very differently to DSL. But you may, in some cases, 
+                                be able to use your existing Wi‑Fi enabled router to spread your Fibre connection via Wi‑Fi. 
+                                This will depend on which router you have and how the provider installs your Fibre.</p>
+                                <div class="clear"></div>
+                            </article>
+
+
+                            <article class="relative blog-item-holder center-relative">
+                                <div class="num">05</div>
+                                <div class="info">
+                                    <div class="author vcard ">Do I need a telephone line to use Fibre?</div>
+                                    <div class="cat-links">
+                                        <ul>
+                                            <li><a href="#">faq</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p>
+                                No! Fibre connects via optical cables that carry data via light, 
+                                which are completely separate from the Telkom copper wire network. </p>
+                                <div class="clear"></div>
+                            </article>
+
+
                             
                            
 
@@ -132,10 +230,11 @@
                 <div class="section-title-holder left" style="background-color: #ffeb3b;">
                     <div class="section-num">
                         <span style="color: #961a0c;">
-                            02
+                            Form
                         </span>
                     </div>
-                    <h2 class="entry-title">FORM</h2>
+                    <i class="fab fa-wpforms fa-9x"></i>
+                   
                 </div>
                 <div class="section-content-holder right">
                     <div class="content-wrapper">

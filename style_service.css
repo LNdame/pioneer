@@ -74,9 +74,15 @@ body a:hover
     position: fixed;
 }
 
-.menu-wrapper img{
+/*L_C */
+.menu-wrapper .logo img{
     float: left;
 }
+
+.logo{
+    float: left;
+}
+
 
 #header-main-menu
 {    
@@ -149,7 +155,8 @@ body a:hover
 .section-num
 {   
     overflow: hidden;    
-    margin-top: 40px;
+    /*margin-top: 40px; K_C */
+    margin-top: 18px;
 }
 
 .section-title-holder
@@ -162,11 +169,12 @@ body a:hover
 
 .section-num span
 {    
-    margin-left: -64px;
+    /* margin-left: -64px; K_C */
     color: #55B286;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 180px;
+   /* font-size: 180px; K_C */
+   font-size: 80px;
     line-height: 100%;
     letter-spacing: -5px;
 }
@@ -213,7 +221,7 @@ body a:hover
 {
     overflow: hidden;
     height: 100px;
-    margin-top: -60px;
+    /*margin-top: -60px; Kevin change{K_C}*/
     padding-bottom: 50px;
 }
 
@@ -222,10 +230,11 @@ body a:hover
     font-family: 'Montserrat';
     font-weight: 700;
     text-align: center;
-    font-size: 180px;
+   /* font-size: 180px; K_C*/
+    font-size: 80px;
     line-height: 100%;
     text-transform: uppercase;
-    margin-top: -75px;
+   /* margin-top: -75px; K_C*/
     color: #221c5a;    
 }
 
@@ -253,6 +262,7 @@ body a:hover
 {
     padding-bottom: 0;
 }
+
 
 /* END GENERAL SECTION */
 
@@ -329,7 +339,8 @@ h1.big-title-alt
 
 .title-desc
 {
-    font-family: 'PT Serif', serif;
+    font-family: 'Nunito', serif;
+    font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     max-width: 333px; 
@@ -1959,7 +1970,11 @@ footer
     {
         right: auto;
         left: 30px;
-    }    
+    }  
+    
+    .logo{
+        display: none !important;
+    }
 }
 
 
@@ -1985,5 +2000,9 @@ footer
     .image-slider-wrapper.service a.image_slider_next 
     {
         top: -84px;
+    }
+
+    .logo{
+        display: none !important;
     }
 }

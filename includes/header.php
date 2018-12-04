@@ -2,6 +2,9 @@
         <div class="menu-wrapper center-relative">
             <nav id="header-main-menu">
                 <div class="mob-menu">MENU</div>
+                <img class="logo" src="mockup-images/logo_menu.png" alt="Pioneer" /> 
+                       
+
                 <ul class="main-menu sm sm-clean">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>

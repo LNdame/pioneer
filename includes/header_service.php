@@ -2,7 +2,7 @@
     <div class="menu-wrapper center-relative">
         <nav id="header-main-menu">
             <div class="mob-menu">MENU</div>
-            <img  src="mockup-images/logo_menu.png" alt="Pioneer" /> 
+            <img class="logo" src="mockup-images/logo_menu.png" alt="Pioneer" /> 
                        
 
             <ul class="main-menu sm sm-clean">

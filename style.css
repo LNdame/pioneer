@@ -60,7 +60,11 @@ body a:hover
     line-height: 0;
 }
 
-
+/*L_C */
+.responsive{
+    width: 100%;
+    height: auto;
+}
 
 /* TOP MENU */
 
@@ -72,6 +76,16 @@ body a:hover
     width: 100% !important;
     top: 0;
     position: fixed;
+}
+
+/*L_C */
+.menu-wrapper .logo img{
+    float: left;
+
+}
+
+.logo{
+    float: left;
 }
 
 #header-main-menu
@@ -95,6 +109,7 @@ body a:hover
     transition: color .2s linear;
     text-transform: uppercase;
     letter-spacing: 0.03cm;
+   
 }
 
 .main-menu.sm-clean .sub-menu a 
@@ -128,7 +143,6 @@ body a:hover
     transition: color .2s linear;
     color: #fff;
 }
-
 /* END TOP MENU */
 
 
@@ -144,7 +158,8 @@ body a:hover
 .section-num
 {   
     overflow: hidden;    
-    margin-top: 40px;
+    /*margin-top: 40px; K_C */
+    margin-top: 18px;
 }
 
 .section-title-holder
@@ -157,11 +172,12 @@ body a:hover
 
 .section-num span
 {    
-    margin-left: -64px;
+    /* margin-left: -64px; K_C */
     color: #55B286;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 180px;
+   /* font-size: 180px; K_C */
+   font-size: 80px;
     line-height: 100%;
     letter-spacing: -5px;
 }
@@ -208,7 +224,7 @@ body a:hover
 {
     overflow: hidden;
     height: 100px;
-    margin-top: -60px;
+    /*margin-top: -60px; Kevin change{K_C}*/
     padding-bottom: 50px;
 }
 
@@ -217,10 +233,11 @@ body a:hover
     font-family: 'Montserrat';
     font-weight: 700;
     text-align: center;
-    font-size: 180px;
+   /* font-size: 180px; K_C*/
+    font-size: 80px;
     line-height: 100%;
     text-transform: uppercase;
-    margin-top: -75px;
+   /* margin-top: -75px; K_C*/
     color: #221c5a;    
 }
 
@@ -267,11 +284,12 @@ body a:hover
     z-index: 10;
 }
 
-
+/*L_C*/
 .intro-alt-page 
 {
     padding-bottom: 170px;
-    min-height: calc(100vh - 170px);
+    /*min-height: calc(100vh - 170px); */
+    max-height: 200px;
     background-color: #ffeb3b; 
     background-image:url(mockup-images/servicebackground.jpg); 
     background-repeat: repeat; 
@@ -280,6 +298,18 @@ body a:hover
     z-index: 10;
 }
 
+
+.intro-page-caro 
+{
+    padding-bottom: 170px;
+    min-height: calc(100vh - 170px);
+    background-color: #ffeb3b; 
+   
+    background-repeat: repeat; 
+    background-position: center top; 
+    background-size: cover;
+    z-index: 10;
+}
 
 
 
@@ -303,6 +333,21 @@ h1.big-title
     margin-right: auto;
 }
 
+h1.big-title-alt
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 100%;
+    padding-top: 100px;
+    color: #fff;
+    letter-spacing: -1px;    
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .big-title span 
 {
     display: block;
@@ -310,7 +355,8 @@ h1.big-title
 
 .title-desc
 {
-    font-family: 'PT Serif', serif;
+    font-family: 'Nunito', serif;
+    font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     max-width: 333px; 
@@ -318,7 +364,7 @@ h1.big-title
     color: #fff;
 }
 
-.page-template-page-home .intro-page   footer footeryellow
+.page-template-page-home .intro-page   .intro-alt-page  footer footeryellow
 {
     position: absolute;
     bottom: 0;
@@ -1729,7 +1775,11 @@ footer
     {
         right: auto;
         left: 30px;
-    }    
+    }   
+    
+    .logo{
+        display: none !important;
+    }
 }
 
 
@@ -1755,6 +1805,10 @@ footer
     .image-slider-wrapper.service a.image_slider_next 
     {
         top: -84px;
+    }
+
+    .logo{
+        display: none !important;
     }
 }
 

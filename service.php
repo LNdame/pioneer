@@ -3,13 +3,17 @@
     <head>
         <title>Pioneer Connect</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Template by Colorlib" />
+        <meta name="description" content="Pioneer Connect, INQB8 BT" />
         <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
         <meta name="author" content="Colorlib" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <link rel="shortcut icon" href="images/favicon.png" />
-        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif|Nunito:300,400,400i,700,700i,900' rel='stylesheet' type='text/css'>
+       
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+
         <link rel="stylesheet" type="text/css"  href='css/clear.css' />
         <link rel="stylesheet" type="text/css"  href='css/common.css' />
         <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
@@ -40,10 +44,122 @@
 
         <!-- Home -->
 
+        <div id="home" class="section intro-alt-page">
 
+                    
+            <div class="block content-1170 center-relative center-text ">
+               
+                <div class="content-wrapper">
+                       
+                        
+                            <h1 class="big-title-alt">Services</span></h1>
+                            <p class="title-desc">Your link to the future</p>
+                            <div class="clear"></div>
+                        <br>
+                        <br>
+                    </div>
 
+            </div>
+        </div>
 
-        
+        <!-- services recap -->
+         <div id="services" class="section"  style="background-image:url(mockup-images/background_gen.jpg);  background-repeat: no-repeat; background-position: center top; background-size: cover; ">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder right" style="background-color: #fbc02d;">
+                    <div class="section-num">
+                        <span style="color: #961a0c;">Services</span>
+                    </div>
+                    <i class="fas fa-globe-africa fa-9x"></i>
+                  
+                </div>
+                <div class="section-content-holder left" >
+                    <div class="content-wrapper">
+                        <script>
+                            var slider1_speed = "500";
+                            var slider1_auto = "true";
+                            var slider1_hover = "true";
+                        </script>
+                        <div class="image-slider-wrapper relative service slider1">
+                            <a id="slider1_next" class="image_slider_next" href ="#"></a>
+
+                            <ul id="slider1" class="image-slider slides">
+                                <li>
+                                    <div class="service-holder ">
+                                        <img src="demo-images/icon_01.png" alt="">
+                                        <div class="service-content-holder">
+                                            <div class="service-title"><a href="#about"> Wireless Internet</a> </div>
+                                            <div class="service-content">
+                                            Wireless Internet has evolved into more than just internet connectivity, as can be seen by our various 
+                                            service offerings which makes use of our Wireless Internet connections.<br /> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service-holder ">
+                                        <img src="demo-images/icon_02.png" alt="">
+                                        <div class="service-content-holder">
+                                            <div class="service-title"><a href="#data">Data </a> </div>
+                                            <div class="service-content">
+                                            Wireless Internet has evolved into more than just internet connectivity, as can be seen by our various 
+                                            service offerings which makes use of our Wireless Internet connections.<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service-holder ">
+                                        <img src="demo-images/icon_03.png" alt="">
+                                        <div class="service-content-holder">
+                                            <div class="service-title"><a href="#voip">VoIP</a> </div>
+                                            <div class="service-content">
+                                            VoIP serves as an alternative cheaper solution when compared to traditional calling. 
+                                            VoIP services in for the single home user and the SMMEs.<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service-holder ">
+                                        <img src="demo-images/icon_04.png" alt="">
+                                        <div class="service-content-holder">
+                                            <div class="service-title"><a href="#video">CCTV</a> </div>
+                                            <div class="service-content">
+                                            At Pioneer Connect we understand that personal or business security consists of more 
+                                            than one security layer in which CCTV plays a vital role<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="service-holder ">
+                                        <img src="demo-images/icon_03.png" alt="">
+                                        <div class="service-content-holder">
+                                            <div class="service-title"><a href="#vpn">VPN </a> </div>
+                                            <div class="service-content">
+                                            a VPN extends the users' network resources in the same way as the resource would be available within the user’s private network.<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service-holder ">
+                                        <img src="demo-images/icon_04.png" alt="">
+                                        <div class="service-content-holder">
+                                            <div class="service-title"><a href="#web">Web Hosting </a> </div>
+                                            <div class="service-content">
+                                            Register your custom domain name such as www.youcompany.co.za, upload your website and be noticed by your clients or target market.<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                   
+                                </li>
+                            </ul>
+                            <div class = "clear"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class='clear'></div>
+            </div>
+
+            
+
+        </div>
+
 
 
         <!-- WI-FI -->
@@ -51,9 +167,10 @@
             <div class="block content-1170 center-relative">
                 <div class="section-title-holder left" style="background-color: #f44336;">
                     <div class="section-num">
-                        <span>01</span>
+                        <span>Wireless Internet</span>
                     </div>
-                    <h2 class="entry-title">WIRELESS</h2>
+                    <i class="fas fa-wifi fa-9x"></i>
+                   <!-- <h2 class="entry-title">WIRELESS</h2> -->
                 </div>
                 <div class="section-content-holder right">
                     <div class="content-wrapper">
@@ -76,8 +193,13 @@
                         </p>
                         
                         <br>
-                        <br>
+                        <div class="latest-post-bottom-text">
+                                <a href="contact.php">APPLY NOW</a>
+                            </div>
+                            <br>
                     </div>
+
+                    
 
                     <div class="full-width ">
                         <script>
@@ -108,29 +230,36 @@
         <!-- CCTV -->
         <div id="video" class="section">
             <div class="block content-1170 center-relative">
-                <div class="section-title-holder right" style="background-color: #fdd835;">
+                <div class="section-title-holder right" style="background-color: #fbc02d;">
                     <div class="section-num">
                         <span>
-                            02
+                           CCTV
                         </span>
                     </div>
-                    <h2 class="entry-title">CAMERA</h2>
+                    <i class="fas fa-video fa-9x"></i>
+                  <!--  <h2 class="entry-title">CAMERA</h2> -->
                 </div>
                 <div class="section-content-holder left">
                     <div class="content-wrapper">
                         <div class="content-title-holder">
-                            <p class="content-title">CCTV</p>
+                            <p class="content-title">Security</p>
                         </div>
                         <p> Closed-circuit television has a proven track record to deter 
                         criminals from committing a crime, as well as reducing property and premeditated crime. 
                         At <strong> Pioneer Connect </strong> we understand that personal or business security consists of more than 
                         one security layer in which CCTV plays a vital role. <br>
-                        Please Contact Us for your free no obligation quote.
+                        Please contact us for your free no obligation quote.
                         </p>
                         <div class="clear"></div>
                         <br>
-                        <br>
+                        <div class="latest-post-bottom-text">
+                                <a href="contact.php">APPLY NOW</a>
+                            </div>
+                            <br>
                     </div>
+
+                   
+
                     <div class="full-width ">
                     <script>
                             var aboutImage_speed = "500";
@@ -160,14 +289,15 @@
             <div class="block content-1170 center-relative">
                 <div class="section-title-holder left" style="background-color: #d32f2f;">
                     <div class="section-num">
-                        <span>03</span>
+                        <span>Voice over IP</span>
                     </div>
-                    <h2 class="entry-title">VOIP</h2>
+                    <i class="fas fa-microphone-alt fa-9x"></i>
+                   <!-- <h2 class="entry-title">VOIP</h2> -->
                 </div>
                 <div class="section-content-holder right">
                     <div class="content-wrapper">
                         <div class="content-title-holder">
-                            <p class="content-title">VOICE</p>
+                            <p class="content-title">Telephony</p>
                         </div>
 
                         <p><strong> Pioneer Connect </strong>  offers VoIP Hardware, Telephony Services and PBX’s which are
@@ -185,8 +315,12 @@
                         <br>
                        <div class="clear"></div>
                         <br>
-                        <br>
+                        <div class="latest-post-bottom-text">
+                                <a href="contact.php">APPLY NOW</a>
+                            </div>
+                            <br>
                     </div>
+                   
 
                     <div class="full-width ">
                         <script>
@@ -219,15 +353,17 @@
                 <div class="section-title-holder right" style="background-color: #fbc02d;">
                     <div class="section-num">
                         <span>
-                            04
+                           VPN
                         </span>
                     </div>
-                    <h2 class="entry-title">VPN</h2>
+                    <i class="fas fa-network-wired fa-9x"></i>
+                  
+                  <!--  <h2 class="entry-title">VPN</h2> -->
                 </div>
                 <div class="section-content-holder left">
                     <div class="content-wrapper">
                         <div class="content-title-holder">
-                            <p class="content-title">VPN</p>
+                            <p class="content-title">Privacy</p>
                         </div>
                         <p><strong> VPN </strong> (Virtual Private Network) extends a client’s private network 
                         across a public network, such as the internet. Looking at it from a user’s perspective, a VPN extends 
@@ -238,9 +374,13 @@
                         <br>
                        <div class="clear"></div>
                         <br>
-                        <br>
                         
+                        <div class="latest-post-bottom-text">
+                                <a href="contact.php">APPLY NOW</a>
+                            </div>
+                            <br>
                     </div>
+                    
                     <div class="full-width ">
                         <script>
                             var aboutImage_speed = "500";
@@ -274,14 +414,15 @@
             <div class="block content-1170 center-relative">
                 <div class="section-title-holder left" style="background-color: #b71c1c;">
                     <div class="section-num">
-                        <span>05</span>
+                        <span>Web Hosting</span>
                     </div>
-                    <h2 class="entry-title">WEB</h2>
+                    <i class="fas fa-server fa-9x"></i>
+                   <!-- <h2 class="entry-title">WEB</h2> -->
                 </div>
                 <div class="section-content-holder right">
                     <div class="content-wrapper">
                         <div class="content-title-holder">
-                            <p class="content-title">HOSTING</p>
+                            <p class="content-title">Browse</p>
                         </div>
                         <p> Not part of the <strong> WWW </strong>yet? Own a business? Want to be noticed? 
                         Register your custom domain name such as www.youcompany.co.za, upload your website and be noticed
@@ -293,8 +434,12 @@
                         <br>
                        <div class="clear"></div>
                         <br>
-                        <br>
+                        <div class="latest-post-bottom-text">
+                                <a href="contact.php">APPLY NOW</a>
+                            </div>
+                            <br>
                     </div>
+                   
 
                     <div class="full-width ">
                         <script>
@@ -329,15 +474,16 @@
                 <div class="section-title-holder right" style="background-color: #ffb300;">
                     <div class="section-num">
                         <span>
-                            06
+                            Data
                         </span>
                     </div>
-                    <h2 class="entry-title">DATA</h2>
+                    <i class="fas fa-at fa-9x"></i>
+                    <!-- <h2 class="entry-title">DATA</h2> -->
                 </div>
                 <div class="section-content-holder left">
                     <div class="content-wrapper">
                         <div class="content-title-holder">
-                            <p class="content-title">DATA</p>
+                            <p class="content-title">Connected</p>
                         </div>
                         <p><strong> Pioneer Connect </strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
                         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia 
@@ -348,9 +494,12 @@
                         <br>
                        <div class="clear"></div>
                         <br>
-                        
-                        <br>
+                        <div class="latest-post-bottom-text">
+                                <a href="contact.php">APPLY NOW</a>
+                            </div>
+                            <br>
                     </div>
+                    
                     <div class="full-width ">
                         <script>
                             var aboutImage_speed = "500";
