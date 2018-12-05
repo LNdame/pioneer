@@ -50,30 +50,30 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('images/1.jpg')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>YOUR LINK TO THE FUTURE</h3>
-              <p></p>
+          <div class="carousel-item active" style="background-image: url('images/1.jpg');">
+            <div class="carousel-caption d-none d-md-block" style="background-color:rgba(0, 0, 0, 0.2);" >
+            <img class="img-flex" src="mockup-images/logo_caption.png" alt="Pioneer" />
+              <p>your link to the future</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('images/2.jpg')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>YOUR LINK TO THE FUTURE</h3>
+          <div class="carousel-item" style="background-image: url('images/2.jpg');">
+            <div class="carousel-caption d-none d-md-block" style="background-color:rgba(0, 0, 0, 0.2);">
+            <img class="img-fluid" src="mockup-images/logo_caption.png" alt="Pioneer" /><br>
               <p></p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('images/3.jpg')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>YOUR LINK TO THE FUTURE</h3>
-              <p></p>
+          <div class="carousel-item" style="background-image: url('images/3.jpg');">
+            <div class="carousel-caption d-none d-md-block" style="background-color:rgba(0, 0, 0, 0.2);" >
+            <img class="img-fluid" src="mockup-images/logo_caption.png" alt="Pioneer" />
+              <p>your link to the future</p>
             </div>
           </div>
-          <div class="carousel-item" style="background-image: url('images/4.jpg')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>YOUR LINK TO THE FUTURE</h3>
-              <p></p>
+          <div class="carousel-item" style="background-image: url('images/4.jpg');">
+            <div class="carousel-caption d-none d-md-block" style="background-color:rgba(0, 0, 0, 0.2);">
+            <img class="img-fluid" src="mockup-images/logo_caption.png" alt="Pioneer" />
+              <p>your link to the future</p>
             </div>
           </div>
          
