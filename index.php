@@ -11,7 +11,7 @@
     <title>Pioneer Connect - Home</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
@@ -23,6 +23,7 @@
         <link rel="stylesheet" type="text/css"  href='css/prettyPhoto.css' />
         <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
         <link rel="stylesheet" type="text/css"  href='style.css' />
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         
         <style>
           #map-canvas {
@@ -89,30 +90,32 @@
     </header>
 
     <br>
-
+<section class="home-icons">
     <div class="row" style="padding:20px;">
       <div class="col-md-3">
         <div class="card" >
-            <center><i class="fas fa-wifi fa-9x card-img-top"></i></center>
+            <center><i class="fas fa-wifi fa-9x card-img-top" style="color:#ffeb3b"></i></center>
                 <div class="card-body">
-                <h3> Wireless Internet</h3>
+                <h3 style="color:#961a0c;text-align: center;"> Wireless Internet</h3>
                     <p class="card-text">Wireless internet has evolved into more than internet connectivity as can be seen by our various service offerings wich make use of our wireless internet connections.</p>
                 </div>
                 <div class="card-footer">
-                <a class="btn btn-primary" href="#">find out more </a>
+                <div class="latest-post-bottom-text">
+                <a href="#">find out more </a></div>
                 </div>
         </div>
     </div>
 
     <div class="col-md-3">
         <div class="card" >
-        <center><i class="fas fa-video fa-9x card-img-top"></i></center>
+        <center><i class="fas fa-video fa-9x card-img-top" style="color:#ffeb3b"></i></center>
                 <div class="card-body">
-                <h3>CCTV</h3>
+                <h3 style="color:#961a0c;text-align: center;">CCTV</h3>
                     <p class="card-text">At Pioneer connect, we understand the importance of personal or business security. Our affordable range of CCTV security offerings will bring you peace of mind.</p>
                 </div>
                 <div class="card-footer">
-                <a class="btn btn-primary" href="#">find out more </a>
+                <div class="latest-post-bottom-text">
+                <a href="#">find out more </a></div>
                 </div>
         </div>
     </div>
@@ -120,13 +123,14 @@
 
 <div class="col-md-3">
         <div class="card" >
-            <center><i class="fas fa-network-wired fa-9x"></i></center>
+            <center><i class="fas fa-network-wired fa-9x" style="color:#ffeb3b"></i></center>
                 <div class="card-body">
-                <h3>Fibre</h3>
+                <h3 style="color:#961a0c;text-align: center;">Fibre</h3>
                     <p class="card-text">From unlimitted (uncappd) data to self-managed top up products, Pioneer Ponnect will provide you with high-speed fiber packages to meet any business or personal requirements.</p>
                 </div>
                 <div class="card-footer">
-                <a class="btn btn-primary" href="#">find out more </a>
+                <div class="latest-post-bottom-text">
+                <a href="#">find out more </a></div>
                 </div>
         </div>
     </div>
@@ -134,18 +138,21 @@
 
 <div class="col-md-3">
         <div class="card" >
-            <center><i class="fas fa-microphone-alt fa-9x"></i></center>
+            <center><i class="fas fa-microphone-alt fa-9x" style="color:#ffeb3b"></i></center>
                 <div class="card-body">
-                <h3>VOIP</h3>
+                <h3 style="color:#961a0c;text-align: center;">VOIP</h3>
                     <p class="card-text">Reduce your home and business voice call costs by taking advantage of the VOIP products from pioneer Connect. VOIP is a reliable and cheaper alternative to the traditional voice networks.</p>
                 </div>
                 <div class="card-footer">
-                <a class="btn btn-primary" href="#">find out more </a>
+                <div class="latest-post-bottom-text">
+                <a href="#">find out more </a></div>
                 </div>
         </div>
     </div>
 
 </div>
+
+</section>
 
 
 <!--
