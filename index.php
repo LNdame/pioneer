@@ -1,253 +1,283 @@
-<!DOCTYPE HTML> 
-<html lang="en-US">
-    <head>
-        <title>Pioneer Connect</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Pioneer Connect, INQB8 BT" />
-        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
-        <meta name="author" content="Colorlib" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!DOCTYPE html>
+<html lang="en">
 
-        <link rel="shortcut icon" href="images/favicon.png" />
-        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif|Nunito:300,400,400i,700,700i,900' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  <head>
 
-        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Pioneer Connect - Home</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href='css/clear.css' />
         <link rel="stylesheet" type="text/css"  href='css/common.css' />
         <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
         <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
         <link rel="stylesheet" type="text/css"  href='css/prettyPhoto.css' />
         <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
         <link rel="stylesheet" type="text/css"  href='style.css' />
+        
+        <style>
+          #map-canvas {
+            width: 500px;
+            height: 400px;
+          }
+        </style>
+        
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
 
-        <!--[if lt IE 9]>
-                <script src="js/html5.js"></script>
-        <![endif]-->
+  </head>
 
-    </head>
-    <body>
+  <body>
 
-        <!-- Preloader Gif -->
-        <table class="doc-loader">
-            <tr>
-                <td>
-                    <img src="images/ajax-document-loader.gif" alt="Loading..." />
-                </td>
-            </tr>
-        </table>
+      <?php include('includes/header.php')?>
 
-        <!-- Menu -->
-         <?php include('includes/header.php')?>
-
-
-        <!-- Home -->
-
-        <div id="home" class="section intro-page">
-            <div class="block content-1170 center-relative center-text">
-                <img style="padding-top: 52px;" class="top-logo" src="mockup-images/logo.png" alt="Pioneer" />
-                <br>
-                <h1 class="big-title">Your link to the <span>Future</span></h1>
-                <p class="title-desc" style="font-family: 'Krub'; color: #ffeb3b;" >Wi-Fi - DATA - VoIP - CCTV</p>
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('images/1.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>YOUR LINK TO THE FUTURE</h3>
+              <p></p>
             </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('images/2.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>YOUR LINK TO THE FUTURE</h3>
+              <p></p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('images/3.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>YOUR LINK TO THE FUTURE</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url('images/4.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>YOUR LINK TO THE FUTURE</h3>
+              <p></p>
+            </div>
+          </div>
+         
         </div>
-        
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
 
+    <br>
 
-<!-- Skills -->
-
-        <div id="skills" class="section">
-            <div class="block content-1170 center-relative">
-                <div class="section-title-holder right">
-                    <div class="section-num">
-                        <span style="color: #ffeb3b;">01</span>
-                    </div>
-                    <h2 class="entry-title">WIRELESS</h2>
+    <div class="row" style="padding:20px;">
+      <div class="col-md-3">
+        <div class="card" >
+            <center><i class="fas fa-wifi fa-9x card-img-top"></i></center>
+                <div class="card-body">
+                <h3> Wireless Internet</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
-                <div class="section-content-holder left">
-                    <div class="content-wrapper">
-                        <div class="content-title-holder">
-                            <p class="content-title">WWW</p>
-                        </div>
-                        <p><strong> Pioneer Connect </strong> will provide High speed connectivity using the best equipment to ensure consistent and undisturbed coverage and speeds to our customers.<br>
-                        However, the challenge in most cases is with upload and download speeds which limits the customer from working or communicating effectively. <br>
-                        <strong> Pioneer Connect </strong> aims to cater for a market that has been in most cases uncaptured and provide the market with the best speeds possible wirelessly and through fiber optical connectivity.<br>
-                        we have formed relationships with one of the best suppliers in the industry to ensure high quality backbone services to enable us to deliver to our end user. Pioneer Connect Offers the following Services.<br>
-
-                        </p>
-                        <br>
-                        
-                        
-                        <div class="progress_bar ">
-                            <div class="progress_bar_field_holder" style="width:100%;">
-                                <div class="progress_bar_title" style="color: #B24564">BLACK OWNED</div>
-                                <div class="progress_bar_percent_text" style="color: #B24564">100%</div>
-                                <div class="progress_bar_field_perecent" style="background-color:#ff5131;"></div>
-                            </div>
-                        </div>
-                        
-                    </div>
+                <div class="card-footer">
+                <a class="btn btn-primary" href="#">find out more </a>
                 </div>
-                <div class="clear"></div>
-            </div>
         </div>
+    </div>
 
-
-
-        <!-- Service -->
-
-        <div id="services" class="section"  style="background-image:url(mockup-images/background_img_xx.jpg);  background-repeat: no-repeat; background-position: center top; background-size: cover; ">
-            <div class="block content-1170 center-relative">
-                <div class="section-title-holder left" style="background-color: #ffeb3b;">
-                    <div class="section-num">
-                        <span style="color: #961a0c;">02</span>
-                    </div>
-                    <h2 class="entry-title">Services</h2>
+    <div class="col-md-3">
+        <div class="card" >
+        <center><i class="fas fa-video fa-9x card-img-top"></i></center>
+                <div class="card-body">
+                <h3>CCTV</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
-                <div class="section-content-holder right" >
-                    <div class="content-wrapper">
-                        <script>
-                            var slider1_speed = "500";
-                            var slider1_auto = "false";
-                            var slider1_hover = "true";
-                        </script>
-                        <div class="image-slider-wrapper relative service slider1">
-                            <a id="slider1_next" class="image_slider_next" href ="#"></a>
-
-                            <ul id="slider1" class="image-slider slides">
-                                <li>
-                                    <div class="service-holder ">
-                                        <img src="demo-images/icon_01.png" alt="">
-                                        <div class="service-content-holder">
-                                            <div class="service-title">Wireless Internet</div>
-                                            <div class="service-content">
-                                            Wireless Internet has evolved into more than just internet connectivity, as can be seen by our various 
-                                            service offerings which makes use of our Wireless Internet connections.<br /> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="service-holder ">
-                                        <img src="demo-images/icon_02.png" alt="">
-                                        <div class="service-content-holder">
-                                            <div class="service-title">Data</div>
-                                            <div class="service-content">
-                                            Wireless Internet has evolved into more than just internet connectivity, as can be seen by our various 
-                                            service offerings which makes use of our Wireless Internet connections.<br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="service-holder ">
-                                        <img src="demo-images/icon_03.png" alt="">
-                                        <div class="service-content-holder">
-                                            <div class="service-title">VoIP</div>
-                                            <div class="service-content">
-                                            VoIP serves as an alternative cheaper solution when compared to traditional calling. 
-                                            VoIP services in for the single home user and the SMMEs.<br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="service-holder ">
-                                        <img src="demo-images/icon_04.png" alt="">
-                                        <div class="service-content-holder">
-                                            <div class="service-title">CCTV</div>
-                                            <div class="service-content">
-                                            At Pioneer Connect we understand that personal or business security consists of more 
-                                            than one security layer in which CCTV plays a vital role<br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="service-holder ">
-                                        <img src="demo-images/icon_03.png" alt="">
-                                        <div class="service-content-holder">
-                                            <div class="service-title">VPN</div>
-                                            <div class="service-content">
-                                            a VPN extends the users' network resources in the same way as the resource would be available within the user’s private network.<br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="service-holder ">
-                                        <img src="demo-images/icon_04.png" alt="">
-                                        <div class="service-content-holder">
-                                            <div class="service-title">Web Hosting</div>
-                                            <div class="service-content">
-                                            Register your custom domain name such as www.youcompany.co.za, upload your website and be noticed by your clients or target market.<br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                   
-                                   
-                                </li>
-                            </ul>
-                            <div class = "clear"></div>
-                        </div>
-
-                    </div>
+                <div class="card-footer">
+                <a class="btn btn-primary" href="#">find out more </a>
                 </div>
-                <div class='clear'></div>
-            </div>
-
-            <div class="extra-content-full-width">
-                <script>
-                    var fwslider1_speed = "500";
-                    var fwslider1_auto = "false";
-                    var fwslider1_hover = "true";
-                    var fwslider1_start = "0";
-                    var fwslider1_width = "400";
-                    var fwslider1_num = "5";
-                </script>
-                <div class="fwslider1 fw-image-slider-holder list_carousel relative">
-                    <div class="caroufredsel_wrapper">
-                        <ul id="fwslider1" class="fw-image-slider">
-                            <li class="fw-slide">
-                                <img src="demo-images/icon_clear.png" alt="">
-                                <p class="fw-slide-text">Premiun services </p>
-                            </li>
-                            <li class="fw-slide">
-                                <img src="mockup-images/icon_call.png" alt="">
-                                <p class="fw-slide-text">+27 72 544 9954</p>
-                            </li>
-                            <li class="fw-slide">
-                                <img src="mockup-images/icon_mail.png" alt="">
-                                <p class="fw-slide-text">sales@pionnerconnect.co.za</p>
-                            </li>
-                            <li class="fw-slide">
-                                <img src="mockup-images/icon_wifi.png" alt="">
-                                <p class="fw-slide-text">Wi-Fi</p>
-                            </li>
-                            <li class="fw-slide">
-                                <img src="mockup-images/icon_data.png" alt="">
-                                <p class="fw-slide-text">Data</p>
-                            </li>
-                            <li class="fw-slide">
-                                <img src="mockup-images/icon_voip.png" alt="">
-                                <p class="fw-slide-text">VoIP</p>
-                            </li>
-                            <li class="fw-slide">
-                                <img src="mockup-images/icon_cctv.png" alt="">
-                                <p class="fw-slide-text">CCTV</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="fwslider1_fw_image_slide_pager" class="fw_carousel_pagination"></div>
-                </div>
-                <a id="fwslider1_fw_next" class="carousel_fw_next" href="#"></a>
-                <div class="clear"></div>
-            </div>
-
         </div>
+    </div>
 
 
+<div class="col-md-3">
+        <div class="card" >
+            <center><i class="fas fa-at fa-9x"></i></center>
+                <div class="card-body">
+                <h3>Data</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer">
+                <a class="btn btn-primary" href="#">find out more </a>
+                </div>
+        </div>
+    </div>
+
+
+<div class="col-md-3">
+        <div class="card" >
+            <center><i class="fas fa-microphone-alt fa-9x"></i></center>
+                <div class="card-body">
+                <h3>VOIP</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer">
+                <a class="btn btn-primary" href="#">find out more </a>
+                </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!--
+
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <ul class="nav nav-pills">
+                <li class="nav-item col-md-6">
+                  <a class="nav-link active" data-toggle="pill" href="#welcome">Who we are</a>
+                </li>
+                <li class="nav-item col-md-6">
+                  <a class="nav-link" data-toggle="pill" href="#about_us">Current coverage</a>
+                </li>
+                </ul>
+          </div>
         
+        <div class="tab-content">
+          <br>
+            <div class="tab-pane container active" id="welcome">
+              <div class="row">
+                <div class="col-md-3" style="background-color:#d50000; height:200px;">
+                    <img class="img-fluid" src="mockup-images/logo.png">
+                </div>
 
-       
-        
-        
+                <div class="col-md-9">
+                    
+                            <h3 class="content-title">who we are</h3>
+                        
+                                 
+                          <strong> Pioneer Connect (Pty) </strong> is an Information and Communication Technology (ICT) company situated at 24 Evatt Street, Central, Port Elizabeth, 6001. <strong> Pioneer Connect (Pty) </strong> is a subsidiary of African Pioneer Group, a company which was founded in 1990 as a black owned business and has grown exponentially over the last 28 years. African Pioneer group is now recognized as one of the largest and most successful unlisted Black Economic Empowerment Investment companies in South Africa.
+                               
+                        <div class="clear"></div>
+                          <br>
+                          <br>
+                        </div>
+                      </div>
+                </div>
+                
+                
+             
+                 
+            <div class="tab-pane container fade" id="about_us">
+              <div class="row">
+                
 
-        <!-- Footer -->
+                <div class="col-md-9">
+                    
+                            <h2 class="content-title">We currently have coverage in the following areas:</h2>
+                        
+                                 
+                          <div id="map-canvas"></div>
+                          
+                          <script>
+                            /**
+                             * @fileoverview Sample showing capturing a KML file click
+                             *   and displaying the contents in a side panel instead of
+                             *   an InfoWindow
+                             */
 
-       <?php include('includes/footer_red.php')?>
+                            var map;
+                            var src = 'maps/map.kmz';
+
+                            /**
+                             * Initializes the map and calls the function that creates polylines.
+                             */
+                            function initialize() {
+                              map = new google.maps.Map(document.getElementById('map-canvas'), {
+                                center: new google.maps.LatLng(-19.257753, 146.823688),
+                                zoom: 2,
+                                mapTypeId: google.maps.MapTypeId.TERRAIN
+                              });
+                              loadKmlLayer(src, map);
+                            }
+                            
+                            /**
+                             * Adds a KMLLayer based on the URL passed. Clicking on a marker
+                             * results in the balloon content being loaded into the right-hand div.
+                             * @param {string} src A URL for a KML file.
+                             */
+                            function loadKmlLayer(src, map) {
+                              var kmlLayer = new google.maps.KmlLayer(src, {
+                                suppressInfoWindows: true,
+                                preserveViewport: false,
+                                map: map
+                              });
+                              google.maps.event.addListener(kmlLayer, 'click', function(event) {
+                                var content = event.featureData.infoWindowHtml;
+                                var testimonial = document.getElementById('capture');
+                                testimonial.innerHTML = content;
+                              });
+                            }
+
+                            google.maps.event.addDomListener(window, 'load', initialize);
+                            </script>
+                                                  
+            
+                               
+                        <div class="clear"></div>
+                          <br>
+                          <br>
+                        </div>
+                        
+                        <div class="col-md-3" style="background-color:rgb(255, 235, 59); height:200px;">
+                    <img class="img-fluid" src="mockup-images/logo.png">
+                </div>
+                
+                
+                      </div>
+                </div>
+                
+                
+                      
+                </div>
+              </div>
+            </div>-->
+      
+            
+  
+            
+        <?php include('includes/footer_red.php')?>
+    
+
+    
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
 
 
         <!--Load JavaScript-->
@@ -264,5 +294,7 @@
         <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
         <script type='text/javascript' src='js/jquery.prettyPhoto.js'></script>
         <script type='text/javascript' src='js/main.js'></script>
-    </body>
+
+  </body>
+
 </html>
