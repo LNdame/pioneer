@@ -94,28 +94,28 @@
     <div class="row" style="padding:20px;">
       <div class="col-md-3">
         <div class="card" >
-            <center><i class="fas fa-wifi fa-9x card-img-top" style="color:#ffeb3b"></i></center>
+            <center><i class="fas fa-wifi fa-9x card-img-top" style="color:#ffa100"></i></center>
                 <div class="card-body">
                 <h3 style="color:#961a0c;text-align: center;"> Wireless Internet</h3>
                     <p class="card-text">Wireless internet has evolved into more than internet connectivity as can be seen by our various service offerings wich make use of our wireless internet connections.</p>
                 </div>
                 <div class="card-footer">
                 <div class="latest-post-bottom-text">
-                <a href="#">find out more </a></div>
+                <a href="services.php#about">find out more </a></div>
                 </div>
         </div>
     </div>
 
     <div class="col-md-3">
         <div class="card" >
-        <center><i class="fas fa-video fa-9x card-img-top" style="color:#ffeb3b"></i></center>
+        <center><i class="fas fa-video fa-9x card-img-top" style="color:#ffa100"></i></center>
                 <div class="card-body">
                 <h3 style="color:#961a0c;text-align: center;">CCTV</h3>
                     <p class="card-text">At Pioneer connect, we understand the importance of personal or business security. Our affordable range of CCTV security offerings will bring you peace of mind.</p>
                 </div>
                 <div class="card-footer">
                 <div class="latest-post-bottom-text">
-                <a href="#">find out more </a></div>
+                <a href="services.php#video">find out more </a></div>
                 </div>
         </div>
     </div>
@@ -123,14 +123,14 @@
 
 <div class="col-md-3">
         <div class="card" >
-            <center><i class="fas fa-network-wired fa-9x" style="color:#ffeb3b"></i></center>
+            <center><i class="fas fa-network-wired fa-9x" style="color:#ffa100"></i></center>
                 <div class="card-body">
                 <h3 style="color:#961a0c;text-align: center;">Fibre</h3>
                     <p class="card-text">From unlimitted (uncappd) data to self-managed top up products, Pioneer Ponnect will provide you with high-speed fiber packages to meet any business or personal requirements.</p>
                 </div>
                 <div class="card-footer">
                 <div class="latest-post-bottom-text">
-                <a href="#">find out more </a></div>
+                <a href="services.php#data">find out more </a></div>
                 </div>
         </div>
     </div>
@@ -138,14 +138,14 @@
 
 <div class="col-md-3">
         <div class="card" >
-            <center><i class="fas fa-microphone-alt fa-9x" style="color:#ffeb3b"></i></center>
+            <center><i class="fas fa-microphone-alt fa-9x" style="color:#ffa100"></i></center>
                 <div class="card-body">
                 <h3 style="color:#961a0c;text-align: center;">VOIP</h3>
                     <p class="card-text">Reduce your home and business voice call costs by taking advantage of the VOIP products from pioneer Connect. VOIP is a reliable and cheaper alternative to the traditional voice networks.</p>
                 </div>
                 <div class="card-footer">
                 <div class="latest-post-bottom-text">
-                <a href="#">find out more </a></div>
+                <a href="services.php#voip">find out more </a></div>
                 </div>
         </div>
     </div>
