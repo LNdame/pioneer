@@ -97,7 +97,7 @@
                                     <div class="service-holder ">
                                         <img src="demo-images/icon_02.png" alt="">
                                         <div class="service-content-holder">
-                                            <div class="service-title"><a href="#data">Data </a> </div>
+                                            <div class="service-title"><a href="#data">Fibre </a> </div>
                                             <div class="service-content">
                                             Wireless Internet has evolved into more than just internet connectivity, as can be seen by our various 
                                             service offerings which makes use of our Wireless Internet connections.<br />
@@ -125,28 +125,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="service-holder ">
-                                        <img src="demo-images/icon_03.png" alt="">
-                                        <div class="service-content-holder">
-                                            <div class="service-title"><a href="#vpn">VPN </a> </div>
-                                            <div class="service-content">
-                                            a VPN extends the users' network resources in the same way as the resource would be available within the user’s private network.<br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="service-holder ">
-                                        <img src="demo-images/icon_04.png" alt="">
-                                        <div class="service-content-holder">
-                                            <div class="service-title"><a href="#web">Web Hosting </a> </div>
-                                            <div class="service-content">
-                                            Register your custom domain name such as www.youcompany.co.za, upload your website and be noticed by your clients or target market.<br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                   
-                                   
-                                </li>
+                                
                             </ul>
                             <div class = "clear"></div>
                         </div>
@@ -348,6 +327,7 @@
         </div>
         
          <!-- VPN --> 
+         <!--
          <div id="vpn" class="section">
             <div class="block content-1170 center-relative">
                 <div class="section-title-holder right" style="background-color: #fbc02d;">
@@ -358,7 +338,7 @@
                     </div>
                     <i class="fas fa-network-wired fa-9x"></i>
                   
-                  <!--  <h2 class="entry-title">VPN</h2> -->
+                
                 </div>
                 <div class="section-content-holder left">
                     <div class="content-wrapper">
@@ -405,11 +385,12 @@
 
            
         </div>
-        
+         -->
 
        
 
         <!-- WebHosting -->
+        <!--
         <div id="web" class="section">
             <div class="block content-1170 center-relative">
                 <div class="section-title-holder left" style="background-color: #b71c1c;">
@@ -417,7 +398,7 @@
                         <span>Web Hosting</span>
                     </div>
                     <i class="fas fa-server fa-9x"></i>
-                   <!-- <h2 class="entry-title">WEB</h2> -->
+                  
                 </div>
                 <div class="section-content-holder right">
                     <div class="content-wrapper">
@@ -459,13 +440,13 @@
                         </div>
 
                         
-                    </div>   <!-- end full-width div -->
+                    </div>    end full-width div 
 
                 </div>
                 <div class="clear"></div>
             </div>
         </div>
-        
+        -->
         
        
          <!-- Data -->
@@ -474,7 +455,7 @@
                 <div class="section-title-holder right" style="background-color: #ffb300;">
                     <div class="section-num">
                         <span>
-                            Data
+                            Fibre
                         </span>
                     </div>
                     <i class="fas fa-at fa-9x"></i>
@@ -485,10 +466,7 @@
                         <div class="content-title-holder">
                             <p class="content-title">Connected</p>
                         </div>
-                        <p><strong> Pioneer Connect </strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia 
-                        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                         qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem
+                        <p><strong> Pioneer Connect </strong> Fibre harnesses the speed of light by transferring data through glass cabling. This makes it the fastest and most reliable form of internet connectivity currently available.
                         </p>
                         
                         <br>

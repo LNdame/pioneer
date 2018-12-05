@@ -120,12 +120,12 @@
                                 </div>
                                 <h3 class="entry-title">
                                     <a href="#">Areas & Periods Standby Numbers & Times 
-                                    All Areas 041 509 3500 <br>
+                                    All Areas +27 (0)41 509 3500 <br>
                                      Monday - Friday 17:00 to 22:00 <br>
                                      Saturdays 08:00 to 22:00 <br>
                                      Sundays 08:00 to 22:00 <br>
 
-                                    During normal working hours please contact our offices:<br> Port Elizabeth 041 509 3500 </a>
+                                    During normal working hours please contact our offices:<br> Port Elizabeth +27 (0)41 509 3500 </a>
                                 </h3>
                                 <div class="clear"></div>
                             </article>

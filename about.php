@@ -73,14 +73,14 @@
         <!-- About -->
         <div id="about" class="section">
             <div class="block content-1170 center-relative">
-                <div class="section-title-holder left" style="background-color: #d50000;">
+                <div class="section-title-holder right" style="background-color: #d50000;">
                     <div class="section-num">
                         <span style="color: #ffeb3b;">Pioneer Connect</span>
                     </div>
                     <img src="mockup-images/logo_menu.pg" alt="">
                     
                 </div>
-                <div class="section-content-holder right">
+                <div class="section-content-holder left">
                     <div class="content-wrapper">
                         <div class="content-title-holder">
                             <p class="content-title">ABOUT</p>
@@ -129,6 +129,7 @@
 
 
             <!-- VPN --> 
+            <!--
         <div id="vpn" class="section">
             <div class="block content-1170 center-relative">
                 <div class="section-title-holder right" style="background-color: #fbc02d;">
@@ -137,21 +138,28 @@
                            Team
                         </span>
                     </div>
-                   <!--  <i class="fas fa-network-wired fa-9x"></i>
                   
-                   <h2 class="entry-title">VPN</h2> -->
                 </div>
                 <div class="section-content-holder left">
                     <div class="content-wrapper">
                         <div class="content-title-holder">
                             <p class="content-title">Management</p>
                         </div>
-                        <p><strong> Management </strong> ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia 
-                        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                         qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem
-                       
-                        <br>
+                        <p>Pioneer Connect borrows from years of experience in various fields relevant to the telecommunication industry.
+                        <br><br>
+                        <strong> Mzukisi Stephen Dondolo </strong> <br><br>
+ 
+Stephen Dondolo is one of the leading Eastern Cape businessmen – he was named “Entrepreneur of the Year” by IMM in 1990 and the “Business Partners Entrepreneur of the Year” in 2002. He obtained a Bachelor of Business Administration through Newport University in USA and also holds a Masters in Business administration through Herriot Watt University. Stephen founded Pioneer Connect when he discovered the need to involve more of the community to the information age through telecoms.
+<br><br>
+<strong>Victor Dondolo</strong>
+<br><br>
+Victor has lead the development of Pioneer Connect from inception as he has done with many of the projects that African Pioneer Group has started. He is well vested in the art of Project Management and development for businesses such as Pioneer Slots that he started from inception, he makes a success out of any project he touches. He obtained a National Diploma of Financial Information Systems through the Nelson Mandela University and holds a Bachelors of Commerce through University of Port Elizabeth and is a qualified securities traders through South African Institutes of Financial Markets.
+<br><br>
+ 
+<strong>Sizwe Dondolo </strong>
+<br><br>
+Sizwe has been on the ground as a network support technician in a high pressured industry, he is well known to be an aggressive force in the field and a key team player in any department. He has obtained CompTIA N+ training through CTU and is currently in the process of completing a Bachelor of Commerce in Business Information Systems through UNISA.
+<br><br>
                        <div class="clear"></div>
                         <br>
                         
@@ -172,11 +180,10 @@
                                 <ul id="manteam1" class="image-slider slides">
                                     <li>
                                         <div class="member-content-holder">
-                                            <h4 class="member-name">Lwando Mini</h4>
-                                            <p class="member-position">LEAD DESIGNER</p>
+                                            <h4 class="member-name">Mzukisi Stephen Dondolo</h4>
+                                            <p class="member-position">CEO</p>
                                             <div class="member-content">
-                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
-                                            </div>
+                                            Stephen Dondolo is one of the leading Eastern Cape businessmen – he was named “Entrepreneur of the Year” by IMM in 1990.                                            <br>
                                         </div>
                                         <div class="member-image-holder">
                                             <img src="demo-images/about_img_01.jpg" alt="">
@@ -187,10 +194,9 @@
                                     <li>
                                         <div class="member-content-holder">
                                             <h4 class="member-name">Victor Dondolo</h4>
-                                            <p class="member-position">SEO MASTER</p>
+                                            <p class="member-position">General Manager</p>
                                             <div class="member-content">
-                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
-                                            </div>
+                                            Victor has lead the development of Pioneer Connect from inception as he has done with many of the projects that African Pioneer Group has started.                                            <br>
                                         </div>
                                         <div class="member-image-holder">
                                             <img src="demo-images/about_img_02.jpg" alt="">
@@ -200,11 +206,11 @@
 
                                     <li>
                                         <div class="member-content-holder">
-                                            <h4 class="member-name">Tandiso  Nkonki</h4>
-                                            <p class="member-position">PSD GURU</p>
+                                            <h4 class="member-name">Sizwe Dondolo</h4>
+                                            <p class="member-position">Technical Coordinator</p>
                                             <div class="member-content">
-                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
-                                            </div>
+                                            Sizwe has been on the ground as a network support technician in a high pressured industry. <br>
+                                             </div>
                                         </div>
                                         <div class="member-image-holder">
                                             <img src="demo-images/about_img_03.jpg" alt="">
@@ -222,9 +228,10 @@
 
            
         </div>
-        
+        -->
 
          <!-- Core team  -->
+         
          <div id="about" class="section">
             <div class="block content-1170 center-relative">
                 <div class="section-title-holder left" style="background-color: #d50000;">
@@ -236,13 +243,23 @@
                 <div class="section-content-holder right">
                     <div class="content-wrapper">
                         <div class="content-title-holder">
-                            <p class="content-title">On The Ground</p>
+                            <p class="content-title">Management</p>
                         </div>
-                        <p><strong> On The Ground </strong> ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia 
-                        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                         qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem
-                       
+                        <p>Pioneer Connect borrows from years of experience in various fields relevant to the telecommunication industry.
+                        <br><br>
+                        <strong> Mzukisi Stephen Dondolo </strong> <br><br>
+ 
+Stephen Dondolo is one of the leading Eastern Cape businessmen – he was named “Entrepreneur of the Year” by IMM in 1990 and the “Business Partners Entrepreneur of the Year” in 2002. He obtained a Bachelor of Business Administration through Newport University in USA and also holds a Masters in Business administration through Herriot Watt University. Stephen founded Pioneer Connect when he discovered the need to involve more of the community to the information age through telecoms.
+<br><br>
+<strong>Victor Dondolo</strong>
+<br><br>
+Victor has lead the development of Pioneer Connect from inception as he has done with many of the projects that African Pioneer Group has started. He is well vested in the art of Project Management and development for businesses such as Pioneer Slots that he started from inception, he makes a success out of any project he touches. He obtained a National Diploma of Financial Information Systems through the Nelson Mandela University and holds a Bachelors of Commerce through University of Port Elizabeth and is a qualified securities traders through South African Institutes of Financial Markets.
+<br><br>
+ 
+<strong>Sizwe Dondolo </strong>
+<br><br>
+Sizwe has been on the ground as a network support technician in a high pressured industry, he is well known to be an aggressive force in the field and a key team player in any department. He has obtained CompTIA N+ training through CTU and is currently in the process of completing a Bachelor of Commerce in Business Information Systems through UNISA.
+<br><br>
                         <br>
                        <div class="clear"></div>
                         <br>
@@ -264,10 +281,10 @@
                                 <ul id="team1" class="image-slider slides">
                                     <li>
                                         <div class="member-content-holder">
-                                            <h4 class="member-name">Lwando Mini</h4>
-                                            <p class="member-position">LEAD DESIGNER</p>
+                                            <h4 class="member-name">Mzukisi Stephen Dondolo</h4>
+                                            <p class="member-position">CEO</p>
                                             <div class="member-content">
-                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
+                                            Stephen Dondolo is one of the leading Eastern Cape businessmen – he was named “Entrepreneur of the Year” by IMM in 1990..<br>
                                             </div>
                                         </div>
                                         <div class="member-image-holder">
@@ -279,9 +296,9 @@
                                     <li>
                                         <div class="member-content-holder">
                                             <h4 class="member-name">Victor Dondolo</h4>
-                                            <p class="member-position">SEO MASTER</p>
+                                            <p class="member-position">General Manager</p>
                                             <div class="member-content">
-                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
+                                            Victor has lead the development of Pioneer Connect from inception as he has done with many of the projects that African Pioneer Group has started.    <br>
                                             </div>
                                         </div>
                                         <div class="member-image-holder">
@@ -292,10 +309,10 @@
 
                                     <li>
                                         <div class="member-content-holder">
-                                            <h4 class="member-name">Tandiso  Nkonki</h4>
-                                            <p class="member-position">PSD GURU</p>
+                                            <h4 class="member-name">Sizwe Dondolo</h4>
+                                            <p class="member-position">Technical Coordinator</p>
                                             <div class="member-content">
-                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
+                                            Sizwe has been on the ground as a network support technician in a high pressured industry. <br>
                                             </div>
                                         </div>
                                         <div class="member-image-holder">

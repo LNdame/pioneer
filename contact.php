@@ -154,6 +154,23 @@
                                 <div class="clear"></div>
                             </article>
 
+
+                             <article class="relative blog-item-holder center-relative">
+                                <div class="num">05</div>
+                                <div class="info">
+                                    <div class="author vcard ">Telephone</div>
+                                    <div class="cat-links">
+                                        <ul>
+                                            <li><a href="#">+27 (0)41 509 3500</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h3 class="entry-title">
+                                    <a href="#">During speficied trading hours</a>
+                                </h3>
+                                <div class="clear"></div>
+                            </article>
+
                             <div class="latest-post-bottom-text">
                                 <a href="#">SEE NETWORK COVERAGE</a>
                             </div>
