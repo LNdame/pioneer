@@ -96,7 +96,7 @@
             <center><i class="fas fa-wifi fa-9x card-img-top"></i></center>
                 <div class="card-body">
                 <h3> Wireless Internet</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Wireless internet has evolved into more than internet connectivity as can be seen by our various service offerings wich make use of our wireless internet connections.</p>
                 </div>
                 <div class="card-footer">
                 <a class="btn btn-primary" href="#">find out more </a>
@@ -109,7 +109,7 @@
         <center><i class="fas fa-video fa-9x card-img-top"></i></center>
                 <div class="card-body">
                 <h3>CCTV</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">At Pioneer connect, we understand the importance of personal or business security. Our affordable range of CCTV security offerings will bring you peace of mind.</p>
                 </div>
                 <div class="card-footer">
                 <a class="btn btn-primary" href="#">find out more </a>
@@ -120,10 +120,10 @@
 
 <div class="col-md-3">
         <div class="card" >
-            <center><i class="fas fa-at fa-9x"></i></center>
+            <center><i class="fas fa-network-wired fa-9x"></i></center>
                 <div class="card-body">
-                <h3>Data</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h3>Fibre</h3>
+                    <p class="card-text">From unlimitted (uncappd) data to self-managed top up products, Pioneer Ponnect will provide you with high-speed fiber packages to meet any business or personal requirements.</p>
                 </div>
                 <div class="card-footer">
                 <a class="btn btn-primary" href="#">find out more </a>
@@ -137,7 +137,7 @@
             <center><i class="fas fa-microphone-alt fa-9x"></i></center>
                 <div class="card-body">
                 <h3>VOIP</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Reduce your home and business voice call costs by taking advantage of the VOIP products from pioneer Connect. VOIP is a reliable and cheaper alternative to the traditional voice networks.</p>
                 </div>
                 <div class="card-footer">
                 <a class="btn btn-primary" href="#">find out more </a>
