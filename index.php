@@ -101,7 +101,7 @@
                 </div>
                 <div class="card-footer">
                 <div class="latest-post-bottom-text">
-                <a href="services.php#about">find out more </a></div>
+                <a href="service.php#about">find out more </a></div>
                 </div>
         </div>
     </div>
@@ -115,7 +115,7 @@
                 </div>
                 <div class="card-footer">
                 <div class="latest-post-bottom-text">
-                <a href="services.php#video">find out more </a></div>
+                <a href="service.php#video">find out more </a></div>
                 </div>
         </div>
     </div>
@@ -130,7 +130,7 @@
                 </div>
                 <div class="card-footer">
                 <div class="latest-post-bottom-text">
-                <a href="services.php#data">find out more </a></div>
+                <a href="service.php#data">find out more </a></div>
                 </div>
         </div>
     </div>
@@ -145,7 +145,7 @@
                 </div>
                 <div class="card-footer">
                 <div class="latest-post-bottom-text">
-                <a href="services.php#voip">find out more </a></div>
+                <a href="service.php#voip">find out more </a></div>
                 </div>
         </div>
     </div>
