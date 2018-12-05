@@ -1,43 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Pioneer Connect - Home</title>
-
-    <!-- Bootstrap core CSS -->
-    
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-
-    <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css"  href='css/clear.css' />
-        <link rel="stylesheet" type="text/css"  href='css/common.css' />
-        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
-        <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
-        <link rel="stylesheet" type="text/css"  href='css/prettyPhoto.css' />
-        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
-        <link rel="stylesheet" type="text/css"  href='style.css' />
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        
-        <style>
-          #map-canvas {
-            width: 500px;
-            height: 400px;
-          }
-        </style>
-        
-        <script src="https://maps.googleapis.com/maps/api/js"></script>
-
-  </head>
-
-  <body>
-
       <?php include('includes/header.php')?>
 
     <header>
@@ -101,7 +61,7 @@
                 </div>
                 <div class="card-footer">
                 <div class="latest-post-bottom-text">
-                <a href="service.php#about">find out more </a></div>
+                <a href="service.php#wifi">find out more </a></div>
                 </div>
         </div>
     </div>
@@ -115,7 +75,7 @@
                 </div>
                 <div class="card-footer">
                 <div class="latest-post-bottom-text">
-                <a href="service.php#video">find out more </a></div>
+                <a href="service.php#cctv">find out more </a></div>
                 </div>
         </div>
     </div>
@@ -126,11 +86,11 @@
             <center><i class="fas fa-network-wired fa-9x" style="color:#ffa100"></i></center>
                 <div class="card-body">
                 <h3 style="color:#961a0c;text-align: center;">Fibre</h3>
-                    <p class="card-text">From unlimitted (uncappd) data to self-managed top up products, Pioneer Ponnect will provide you with high-speed fiber packages to meet any business or personal requirements.</p>
+                    <p class="card-text">From unlimitted (uncapped) data to self-managed top-up products, Pioneer Connect will provide you with high-speed fibre packages to meet any business or personal requirements.</p>
                 </div>
                 <div class="card-footer">
                 <div class="latest-post-bottom-text">
-                <a href="service.php#data">find out more </a></div>
+                <a href="service.php#fibre">find out more </a></div>
                 </div>
         </div>
     </div>
@@ -277,31 +237,3 @@
   
             
         <?php include('includes/footer_red.php')?>
-    
-
-    
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-
-
-
-        <!--Load JavaScript-->
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type='text/javascript' src='js/jquery.sticky-kit.min.js'></script>
-        <script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
-        <script type='text/javascript' src='js/jquery.sticky.js'></script>
-        <script type='text/javascript' src='js/jquery.dryMenu.js'></script>
-        <script type='text/javascript' src='js/isotope.pkgd.js'></script>
-        <script type='text/javascript' src='js/jquery.carouFredSel-6.2.0-packed.js'></script>
-        <script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
-        <script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
-        <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
-        <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
-        <script type='text/javascript' src='js/jquery.prettyPhoto.js'></script>
-        <script type='text/javascript' src='js/main.js'></script>
-
-  </body>
-
-</html>

@@ -1,64 +1,18 @@
-<!DOCTYPE HTML> 
-<html lang="en-US">
-    <head>
-        <title>Pioneer Connect</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Pioneer Connect, INQB8 BT" />
-        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
-        <meta name="author" content="Colorlib" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <link rel="shortcut icon" href="images/favicon.png" />
-        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif|Nunito:300,400,400i,700,700i,900' rel='stylesheet' type='text/css'>
-       
-       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-
-
-        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
-        <link rel="stylesheet" type="text/css"  href='css/common.css' />
-        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
-        <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
-        <link rel="stylesheet" type="text/css"  href='css/prettyPhoto.css' />
-        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
-        <link rel="stylesheet" type="text/css"  href='style_service.css' />
-
-        <!--[if lt IE 9]>
-                <script src="js/html5.js"></script>
-        <![endif]-->
-
-    </head>
-    <body>
-
-        <!-- Preloader Gif -->
-        <table class="doc-loader">
-            <tr>
-                <td>
-                    <img src="images/ajax-document-loader.gif" alt="Loading..." />
-                </td>
-            </tr>
-        </table>
-
-        <!-- Menu -->
-         <?php include('includes/header_service.php')?>
-
+<!-- Menu -->
+<?php include('includes/header_service.php')?>
 
         <!-- Home -->
 
-        <div id="home" class="section intro-alt-page">
-
-                    
-            <div class="block content-1170 center-relative center-text ">
-               
-                <div class="content-wrapper">
-                       
-                        
-                            <h1 class="big-title-alt">Services</span></h1>
-                            <p class="title-desc">Your link to the future</p>
-                            <div class="clear"></div>
+    <div id="home" class="section intro-alt-page">
+        <div class="block content-1170 center-relative center-text ">
+            <div class="content-wrapper">                      
+                <h1 class="big-title-alt">Services</span></h1>
+                <p class="title-desc">Your link to the future</p>
+        <div class="clear"></div>
                         <br>
                         <br>
                     </div>
-
             </div>
         </div>
 
@@ -70,7 +24,6 @@
                         <span style="color: #961a0c;">Services</span>
                     </div>
                     <i class="fas fa-globe-africa fa-9x"></i>
-                  
                 </div>
                 <div class="section-content-holder left" >
                     <div class="content-wrapper">
@@ -125,24 +78,17 @@
                                         </div>
                                     </div>
                                 </li>
-                                
                             </ul>
                             <div class = "clear"></div>
                         </div>
-
                     </div>
                 </div>
                 <div class='clear'></div>
-            </div>
-
-            
-
-        </div>
-
-
+            </div>        
+        </div><!-- services recap -->
 
         <!-- WI-FI -->
-        <div id="about" class="section">
+        <div id="wifi" class="section">
             <div class="block content-1170 center-relative">
                 <div class="section-title-holder left" style="background-color: #f44336;">
                     <div class="section-num">
@@ -176,9 +122,7 @@
                                 <a href="contact.php">APPLY NOW</a>
                             </div>
                             <br>
-                    </div>
-
-                    
+                    </div>              
 
                     <div class="full-width ">
                         <script>
@@ -191,15 +135,11 @@
                             <div class="caroufredsel_wrapper">
                                 <ul id="aboutImage" class="image-slider slides">
                                     <li><img src="mockup-images/service_img_01.jpg" alt=""></li>
-                                    
                                 </ul>
                             </div>
                             <div class="clear"></div>
                         </div>
-
-                        
                     </div>   <!-- end full-width div -->
-
                 </div>
                 <div class="clear"></div>
             </div>
@@ -207,7 +147,7 @@
 
 
         <!-- CCTV -->
-        <div id="video" class="section">
+        <div id="cctv" class="section">
             <div class="block content-1170 center-relative">
                 <div class="section-title-holder right" style="background-color: #fbc02d;">
                     <div class="section-num">
@@ -450,7 +390,7 @@
         
        
          <!-- Data -->
-        <div id="data" class="section">
+        <div id="fibre" class="section">
             <div class="block content-1170 center-relative">
                 <div class="section-title-holder right" style="background-color: #ffb300;">
                     <div class="section-num">
